@@ -1,0 +1,31 @@
+/* Write your code here. */
+.bg_container {
+  background-color: #0f172a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main_heading {
+  color: #f8fafc;
+  text-align: center;
+  font-family: "Roboto";
+}
+
+.images_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.image {
+  width: 40%;
+}
+
+@media (min-width: 768px) {
+  .image {
+    width: 50%;
+  }
+}
